@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 7</title>
+</head>
+<body>
+  <form>
+    <p>Procesadores:
+      <select id="procesador">
+        <option value="180000">Intel i3</option>
+        <option value="280000">Intel i5</option>
+        <option value="474000">Intel i7</option>
+      </select>
+    </p>
+    <p>Monitor:
+      <select id="monitor">
+        <option value="250000">Samsung 20"</option>
+        <option value="290000">Samsung 22"</option>
+        <option value="460000">Samsung 26"</option>
+      </select>
+    </p>
+    <p>Disco duro ssd:
+      <select id="disco">
+        <option value="40000">500 GB</option>
+        <option value="120000">1 TB</option>
+        <option value="600000">5 TB</option>
+      </select>
+    </p>
+    <input type="button" value="Calcular" onClick="calcularTotal()">
+    <p>Total: <input type="text" id="total"></p>
+  </form>
+
+  <script src="ejercicio.7.js"></script>
+</body>
+</html>
